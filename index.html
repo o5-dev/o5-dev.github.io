@@ -67,6 +67,27 @@
     font-family: 'Share Tech Mono', monospace; font-size: 11px;
     letter-spacing: 1px; background: var(--panel2);
   }
+  .side-ad {
+  position: fixed;
+  top: 120px;
+  width: 160px;
+  height: 600px;
+  z-index: 50;
+  }
+
+  .side-ad.left {
+  left: 10px;
+  }
+
+  .side-ad.right {
+  right: 10px;
+  }
+
+@media (max-width: 1200px) {
+  .side-ad {
+    display: none;
+  }
+}
 
   /* ── NAV ── */
   nav {
@@ -373,10 +394,44 @@
 </head>
 <body>
 
-<!-- TOP AD BANNER -->
-<div class="ad-top">
-  <div class="ad-slot">[ AD SPACE — Replace with Google AdSense 728×90 ]</div>
+<!-- LEFT SIDE AD -->
+<div class="side-ad left">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-1004648440782001"
+       data-ad-slot="7822067777"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
 </div>
+
+<!-- RIGHT SIDE AD -->
+<div class="side-ad right">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-1004648440782001"
+       data-ad-slot="7643043729"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+</div>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- TOP AD BANNER -->
+<div class="ad-slot">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-1004648440782001"
+       data-ad-slot="5671486505"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+</div>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!-- NAV -->
 <nav>
@@ -441,9 +496,16 @@
 </section>
 
 <!-- MID AD -->
-<div class="ad-mid">
-  <div class="ad-mid-slot">[ AD SPACE — Replace with Google AdSense 970×90 ]</div>
-</div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1004648440782001"
+     data-ad-slot="5671486505"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!-- FEATURES -->
 <section class="section" style="padding-top:0">
@@ -522,7 +584,16 @@
       PREPARING DOWNLOAD — AUTOSTRIKE.ZIP
     </div>
     <div class="modal-body">
-      <div class="ad-modal-slot">[ AD — Replace with AdSense 300×250 ]</div>
+      <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1004648440782001"
+     data-ad-slot="5671486505"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
       <div class="modal-timer">
         <div class="modal-timer-text">Your download starts in <span id="countdown">5</span>s</div>
         <button class="btn-skip" id="skipBtn" disabled onclick="startDownload()">DOWNLOAD ↓</button>
